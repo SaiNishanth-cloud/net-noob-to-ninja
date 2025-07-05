@@ -19,7 +19,7 @@ A **server** is a powerful computer that provides resources and services to othe
 
 ## ☁️ Cloud & Data Centers
 
-Servers are often housed in **data centers** or **cloud platforms** (like AWS, Azure, or Google Cloud). These servers are:
+Servers are often stacked in **data centers** or **cloud platforms** (like AWS, Azure, or Google Cloud). These servers are:
 
 - **Connected to the internet**
 - **Accessible from anywhere** in the world
@@ -126,25 +126,8 @@ Humans remember names like `google.com`, not IPs like `142.250.190.78`.
 
 ## 🧠 Summary Diagram
 
-> _Insert an image here to visually explain the architecture:_
-
-```plaintext
-User → DNS → IP → Server → Data
-```
+The diagram below summarizes how devices get IP addresses, how DNS resolves domain names, and how everything ties together across networks and cloud infrastructure.
 
 ```markdown
-![Network Diagram](images/network-diagram.png)
-```
-
----
-
-## ✅ Suggested Repo Structure
-
-```
-/network-basics
-│
-├── README.md
-├── images/
-│   └── network-diagram.png
-└── LICENSE
+![Network Diagram](/ccna/Network-Fundamentals/images/network-diagram.png)
 ```
