@@ -128,4 +128,4 @@ Humans remember names like `google.com`, not IPs like `142.250.190.78`.
 
 The diagram below summarizes how devices get IP addresses, how DNS resolves domain names, and how everything ties together across networks and cloud infrastructure.
 
-![Network Diagram](/images/network-diagram.png)
+![Network Diagram](/ccna/Network-Fundamentals/images/network-diagram.png)
