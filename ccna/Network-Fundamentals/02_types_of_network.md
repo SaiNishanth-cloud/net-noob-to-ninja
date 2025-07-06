@@ -92,6 +92,97 @@ Can be connected to:
 
 ---
 
+## 4️⃣ Metropolitan Area Network (MAN)
+A MAN spans a larger area than a LAN but is smaller than a WAN. It typically connects multiple LANs across a city or metropolitan region.
+
+**How it works**:
+
+- Uses high-speed backbone technologies (like fiber optics)
+
+- Managed by governments, telecoms, or large organizations
+
+**Examples**:
+
+- FM Radio broadcasting within a city (e.g., Mumbai FM not available in Pune)
+
+- Train station networks in a metro area
+
+- City-wide surveillance systems or university campus networks
+
+🌐 Coverage:
+Limited to a single metropolitan area – ideal for connecting offices or facilities across a city
+
+**Advantages**:
+
+- Broader reach than LAN
+
+- Cost-effective for regional connectivity
+
+- Faster and more secure than using public internet between locations
+
+**Disadvantages**:
+
+- Higher setup cost than LAN
+
+- Requires centralized management
+
+- Limited to urban areas
+
+![MAN Diagram](/ccna/Network-Fundamentals/images/MAN-diagram.png)
+
+---
+
+## 5️⃣ Wide Area Network (WAN)
+A WAN is a computer network that spans a large geographical area, connecting multiple LANs over long distances.
+
+**How it works**:
+
+- Uses telecommunication lines (like fiber, telephone lines) or radio waves
+
+- Interconnects cities, countries, or even continents
+
+- Requires routing protocols to manage data transfer between distant nodes
+
+🌍 Example:
+Your office in Delhi connects to your branch in Bangalore using a WAN link provided by an ISP.
+
+# ⚡ Routing Protocols in WAN
+Routing protocols determine the best path for data packets across large networks by evaluating:
+
+- Latency (how fast)
+
+- Hop count (how many stops)
+
+- Bandwidth availability
+
+- Link reliability
+
+🧠 Analogy:
+Like GPS choosing the fastest route during traffic, routing protocols (like OSPF, BGP) help routers decide the optimal path for sending data.
+
+![WAN Diagram](/ccna/Network-Fundamentals/images/WAN-diagram.png)
+
+**Key Components**:
+
+- Multiple Office Locations: Delhi, Bangalore (India), New York (USA), London (UK), and Sydney (Australia)
+- Individual LANs: Each office has its own local network with computers and systems
+- Routers (R1-R5): Handle routing decisions at each location
+- ISP Cloud: Central internet infrastructure managing global connectivity
+
+**WAN Technologies Shown**:
+
+- Fiber Optic Cables (red solid lines) - High-speed connections between major cities
+- Satellite Links (blue dashed lines) - For remote or backup connections
+- Routing Path (orange highlighted) - Shows actual data path from Delhi to Bangalore
+
+**Routing Protocols**:
+
+- OSPF - Calculates shortest paths within organizations
+- BGP - Routes data between different ISPs and countries
+- Decision Factors: Latency, hop count, bandwidth, and link reliability
+
+---
+
 ## 🔁 NAT64 & NAT46
 
 🧰 **What Is NAT**?
