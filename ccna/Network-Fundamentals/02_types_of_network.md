@@ -1,6 +1,8 @@
-🌐 Types of Networks
+# 🌐 Types of Networks
 
-1️⃣ Personal Area Network (PAN)
+---
+
+## 1️⃣ Personal Area Network (PAN)
 A PAN connects devices in a very small range — typically around a single person.
 
 **Examples**:
@@ -14,7 +16,9 @@ A PAN connects devices in a very small range — typically around a single perso
 
 ![PAN Diagram](/ccna/Network-Fundamentals/images/PAN-diagram.png)
 
-2️⃣ Local Area Network (LAN)
+---
+
+## 2️⃣ Local Area Network (LAN)
 A LAN connects multiple computers and devices within a limited area like a home, office, or building.
 
 **How it works**:
@@ -48,7 +52,9 @@ A LAN connects multiple computers and devices within a limited area like a home,
 
 ![LAN Diagram](/ccna/Network-Fundamentals/images/LAN-diagram.png)
 
-3️⃣ Wireless Local Area Network (WLAN)
+---
+
+## 3️⃣ Wireless Local Area Network (WLAN)
 A WLAN is similar to LAN but uses wireless access points (Wi-Fi) to connect devices.
 
 📡 Fixed access points, unlike PAN devices that move with users
@@ -75,7 +81,9 @@ Can be connected to:
 
 ![WLAN Diagram](/ccna/Network-Fundamentals/images/WLAN-diagram.png)
 
-🔁 NAT64 & NAT46
+---
+
+## 🔁 NAT64 & NAT46
 
 🧰 **What Is NAT**?
 
@@ -97,6 +105,8 @@ Imagine you're speaking French (IPv6), and the server only understands English (
 
 ![NAT64 Diagram](/ccna/Network-Fundamentals/images/NAT64-diagram.png)
 
+---
+
 🔁 NAT46: IPv4 → IPv6
 
 NAT46 allows IPv4-only clients to access IPv6-only resources.
@@ -111,7 +121,9 @@ Like using a universal adapter for a power plug when traveling — the plug (IPv
 
 ![NAT46 Diagram](/ccna/Network-Fundamentals/images/NAT46-diagram.png)
 
-🧠 Short Summary:
+---
+
+## 🧠 Short Summary:
 
 NAT64 = IPv6 client ↔ IPv4 server
 
