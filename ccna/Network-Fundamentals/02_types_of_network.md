@@ -19,13 +19,20 @@ A PAN connects devices in a very small range — typically around a single perso
 ---
 
 ## 2️⃣ Local Area Network (LAN)
-A LAN connects multiple computers and devices within a limited area like a home, office, or building.
+
+A LAN connects multiple computers and devices within a limited area like a home, office, or school.
+
+LAN can be wired, wireless, or a combination of both.
 
 **How it works**:
 
-- Devices are connected via network switches
+- Wired LAN: Devices are connected via network switches and Ethernet cables
 
-- Uses private IP addressing (e.g., 192.168.x.x)
+- Wireless LAN (WLAN): Devices connect via Wi-Fi access points, which are themselves wired to the switch or router
+
+📶 Hybrid LAN:
+
+A modern laptop connects via Wi-Fi (WLAN), while desktop PCs connect via Ethernet — both are part of the same LAN if connected to the same network switch or router.
 
 🔗 Cables Used:
 
@@ -34,23 +41,25 @@ A LAN connects multiple computers and devices within a limited area like a home,
 -  Fiber Optic (10–20km)
 
 **Examples**:
-- 6 computers connected using a switch for file sharing or printing.
+- 6 computers — 3 wired via switch, 3 wireless via an AccessPoint — share files and printers within a private network.
 
 **Advantages**:
 
-- Fast data transfer
+- High-speed data transfer (especially wired)
 
-- Easy setup and management
+- Centralized resource sharing (printers, storage)
 
-- Secure and fault-tolerant
+- Can scale with both wired and wireless nodes
 
 **Disadvantages**:
 
-- Limited to a small area
+- Limited to one physical/geographic location
 
-- Less scalable for growing networks
+- Can suffer from performance or congestion as more users connect
 
 ![LAN Diagram](/ccna/Network-Fundamentals/images/LAN-diagram.png)
+
+![LAN-WLAN Diagram](/ccna/Network-Fundamentals/images/LAN-WLAN-diagram.png)
 
 ---
 
